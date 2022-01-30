@@ -6,10 +6,16 @@
  */
 
 .wp-block-cgb-block-gutenberg-repeater  {
-  background: $green;
+  background: $white;
   border: 0.2rem solid $black;
   color: $black;
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 100%;
   padding: 2rem;
+}
+.repeater-item{
+  display: flex;
+  .components-base-control{
+	flex: 1;
+  }
 }
